@@ -1,0 +1,7 @@
+isso é um{
+    programa estranho;
+    que testa - a leitura;
+}
+do {
+    arquivo;
+}
