@@ -1,5 +1,6 @@
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.io.FileReader;
 
 
@@ -11,17 +12,21 @@ public class Reader {
         file = new File(fileName);
    } 
    
-   public void readFile(){
-        try (FileReader fr = new FileReader(file))
-        {
+   public ArrayList<String> readFile(){
+        ArrayList<String> read = new ArrayList<>();
+        try (FileReader fr = new FileReader(file)){
+            
             int content;
             while ((content = fr.read()) != -1) {
-                char character = (char) content;
-                //chamar função passando o caracter
+                char temp = (char) content;
+                String character = ""+temp;
+                read.add(character);
+                System.out.println(read);
             }
         } catch (IOException e) {
             e.printStackTrace();
         }
+        return read;
    }
    
 }
