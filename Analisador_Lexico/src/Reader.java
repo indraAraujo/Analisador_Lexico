@@ -18,7 +18,6 @@ public class Reader {
             while ((content = fr.read()) != -1) {
                 char character = (char) content;
                 //chamar função passando o caracter
-                System.out.print(character);
             }
         } catch (IOException e) {
             e.printStackTrace();
