@@ -113,16 +113,18 @@ public class Analisador_Lexico extends javax.swing.JFrame {
 
     private void get_file_buttonActionPerformed(java.awt.event.ActionEvent evt) {                                                
        //-------- LIDAR COM O ARQUIVO ------------
-        Reader fileReader;
-        File file;
+        String fileName ="";
         JFileChooser chooser = new JFileChooser(".");
         int res;
         //ABRIR ARQUIVO
          chooser.setFileSelectionMode(JFileChooser.FILES_AND_DIRECTORIES);
          res=chooser.showOpenDialog(null);
           if (res==JFileChooser.APPROVE_OPTION){
+                Reader fileReader = null;
+                File file;
                file=chooser.getSelectedFile();
-               fileReader = new Reader(file.getAbsolutePath());
+               fileName = file.getAbsolutePath();
+               fileReader = new Reader(fileName);
                //LER ARQUIVO
                readCharacters=fileReader.readFile();
                fileReader.closeReader();
@@ -141,6 +143,16 @@ public class Analisador_Lexico extends javax.swing.JFrame {
           for(int i=0; i<result.length; i++){
               dtm_result.addRow(result[i]);
           }
+
+          //SALVAR O RESULTADO EM UM ARQUIVO
+          Reader fileReader = new Reader(fileName);
+          //TODO! PASSAR O RESULTADO PARA UM VETOR DE STRINGS (?)
+          String[][] result_str = {{"operador", "+"},
+                                {"palavra reservada","nil"},                
+                                {"palavra reservada","T"},
+                                {"palavra reservada","car"}};
+          System.out.println(result_str.toString());
+          fileReader.saveFile(result_str);
           
     }                                               
 

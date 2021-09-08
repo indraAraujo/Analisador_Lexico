@@ -1,5 +1,7 @@
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -7,6 +9,7 @@ public class Reader {
     File file;
     String fileName;
     Scanner scanner = null;
+    int times = 0;
    public Reader(String filePath){
         fileName = filePath;
         try{
@@ -36,4 +39,17 @@ public class Reader {
    public void closeReader(){
        scanner.close();
    }
+
+   public void saveFile(String[][] result){
+    try {
+        String name = "Resultado_Analise_Lexica"+times+".txt";
+        FileWriter writer = new FileWriter(name);
+        //?COMO IMPRIMIR CERTO O VETOR DE STRING? USAR OUTRA ESTRUTURA DE DADOS?
+        writer.write(result.toString());
+        writer.close(); 
+        times++;
+    } catch (IOException e) {
+        e.printStackTrace();
+    }
+}
 }
