@@ -5,6 +5,7 @@ public class Main {
         ArrayList<String> readCharacters = new ArrayList<>();
         Reader fileReader = new Reader("estranho.txt");
         readCharacters = fileReader.readFile();
+        fileReader.closeReader();
         System.out.println(readCharacters.toString());
     }
 }
