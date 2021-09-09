@@ -40,7 +40,7 @@ public class Reader {
        scanner.close();
    }
 
-   public void saveFile(String[][] result){
+   public void saveFile(ArrayList<Token> result){
     try {
         String name = "Resultado_Analise_Lexica"+times+".txt";
         FileWriter writer = new FileWriter(name);

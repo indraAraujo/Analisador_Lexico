@@ -11,6 +11,7 @@ import javax.swing.table.DefaultTableModel;
 public class Analisador_Lexico extends javax.swing.JFrame {
 
      ArrayList<String> readCharacters = new ArrayList<>();
+     ArrayList<Token> result = new ArrayList<>();
     public Analisador_Lexico() {
         initComponents();
     }
@@ -131,28 +132,24 @@ public class Analisador_Lexico extends javax.swing.JFrame {
            }
         
           //COLOCAR O RESULTADO NA TABELA
+          result.add(new Token("Palavra Reservada", "nil"));
+          result.add(new Token("Palavra Reservada", "car"));
+          result.add(new Token("Operador", "leq"));
+          result.add(new Token("Identificador", "Ab10_Bah"));
           //result = automata.getResult(); TODO! PASSAR O RESULTADO DA CLASSE AUTOMATA;
-          Object[][] result = {
-                {"operador", "+"},
-                {"palavra reservada","nil"},                
-                {"palavra reservada","T"},
-                {"palavra reservada","car"},
-
-           };
+          String[][] result_matrix = {
+              {"Palavra Reservada", "nil"}
+          };
+         
           DefaultTableModel dtm_result = (DefaultTableModel)result_table.getModel();
-          for(int i=0; i<result.length; i++){
-              dtm_result.addRow(result[i]);
+          for(int i=0; i<result_matrix.length; i++){
+              dtm_result.addRow(result_matrix[i]);
           }
 
           //SALVAR O RESULTADO EM UM ARQUIVO
           Reader fileReader = new Reader(fileName);
-          //TODO! PASSAR O RESULTADO PARA UM VETOR DE STRINGS (?)
-          String[][] result_str = {{"operador", "+"},
-                                {"palavra reservada","nil"},                
-                                {"palavra reservada","T"},
-                                {"palavra reservada","car"}};
-          System.out.println(result_str.toString());
-          fileReader.saveFile(result_str);
+          
+          fileReader.saveFile(result);
           
     }                                               
 

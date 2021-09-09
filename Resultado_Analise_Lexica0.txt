@@ -1,1 +1,5 @@
-[[Ljava.lang.String;@4132ce32
+[ Palavra Reservada  |  nil
+,  Palavra Reservada  |  car
+,  Operador  |  leq
+,  Identificador  |  Ab10_Bah
+]
