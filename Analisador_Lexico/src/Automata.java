@@ -1,17 +1,14 @@
 
 import java.util.ArrayList;
 
-public class Automata
-{
+public class Automata{
 	ArrayList<Token> tokens;
 
-	public Automata ()
-	{
+	public Automata (){
 		tokens = new ArrayList<Token>();
 	}
 
-	public void parseWords ()
-	{
+	public void parseWords (ArrayList<String> readWords){
 		int state, k;
 		boolean hasAdjacency, debugMode;
 		String word, type;
@@ -21,10 +18,8 @@ public class Automata
 		debugMode = false;
 		Graph_Manager graphManager = new Graph_Manager();
 
-		Reader code = new Reader ("./scheme.scm");
 		vertex = graphManager.loadGraph ();
-		words = code.readFile ();
-		code.closeReader();
+		words = readWords;
 		if (debugMode) {
 			graphManager.printGraph(vertex);
 		}
@@ -73,11 +68,14 @@ public class Automata
 		// System.out.println("\n");
 	}
 
-	public void printTokens ()
-	{
+	public void printTokens (){
 		for (Token i : tokens) {
 			System.out.println (i.toString ());
 		}
+	}
+
+	public ArrayList<Token> getResult(){
+		return tokens; 
 	}
 }
 

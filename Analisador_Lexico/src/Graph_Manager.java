@@ -3,10 +3,10 @@
  * Fornece métodos auxiliares para lidar com o grafo como um todo, uma vez que ele é
  * apresentado como uma lista de adjacências
  *
- * */
+ *
+ */
 
-import java.io.File;  
-import java.io.FileNotFoundException;  
+import java.io.File;   
 import java.io.IOException;  
 import java.util.Scanner; 
 import java.io.InputStream;
@@ -18,10 +18,10 @@ public class Graph_Manager
 	public Vertex[] vertex;
 	public int amountOfVertexes;
 
-	// contrói o grafo a partir do arquivo de configuração
+	// Constrói o grafo a partir do arquivo de configuração graph.conf
 	public Vertex[] loadGraph ()
 	{
-		File configFile = new File ("./utils/graph.conf");
+		File configFile = new File ("graph.conf");
 		amountOfVertexes = 0;
 
 		/* System.out.println ("\nLoading graph...");
@@ -30,7 +30,7 @@ public class Graph_Manager
 		try {
 			Scanner scanner = new Scanner (configFile);
 			String string;
-			amountOfVertexes = countLines ("./utils/graph.conf");
+			amountOfVertexes = countLines ("graph.conf");
 			vertex = new Vertex[amountOfVertexes];
 			for (int i = 0; i< amountOfVertexes; i++)
 				vertex[i] = new Vertex();
@@ -77,9 +77,9 @@ public class Graph_Manager
 
 	public String determineType (int state)
 	{
-		String type = "NOT_ASSIGNED";
-		String reserved = "RESERV";
-		String operand = "OPER";
+		String type = "NÃO ATRIBUÍDO";
+		String reserved = "PALAVRA RESERVADA";
+		String operand = "OPERADOR";
 
 		switch (state) {
 			case 40:
@@ -155,7 +155,7 @@ public class Graph_Manager
 				type = operand;
 				break;
 			default:
-				type = "ID";
+				type = "IDENTIFICADOR";
 				break;
 		}
 

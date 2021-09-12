@@ -1,29 +1,29 @@
-public class Token {
-    private String type;
-    private String info;
+/*
+* Classe para identificar cada Token reconhecido
+*/
 
+public class Token {
+    private String type; //Atributo para armazenar o tipo do token
+    private String info; //Atributo para armazenar o próprio token
+
+    //Construtor da classe
     public Token(String type, String info){
         this.type = type;
         this.info = info;
     }
 
+    //Método para retornar o tipo do token
     public String getType(){
         return type;
     }
 
-    public void setType(String type){
-        this.type = type;
-    }
-
+    //Método para retornar o token
     public String getInfo(){
         return info;
     }
 
-    public void setInfo(String info){
-        this.info=info;
-    }
-
+    //Método para imprimir o token e seu tipo
     public String toString(){
-        return " " + type + "  |  " + info+ "\n";
+        return " " + type + " -> " + info+ "\n";
     }
 }

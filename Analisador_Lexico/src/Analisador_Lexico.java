@@ -5,17 +5,17 @@ import java.util.ArrayList;
 import javax.swing.JFileChooser;
 
 public class Analisador_Lexico extends javax.swing.JFrame {
-
-     ArrayList<String> readCharacters = new ArrayList<>();
-     ArrayList<Token> result = new ArrayList<>();
+      Automata automata = new Automata(); //Instancia da classe do autômato
+     ArrayList<String> readCharacters = new ArrayList<>(); //Lista que contem todos os caracteres lidos do arquivo 
+     //de entrada
+     ArrayList<Token> result = new ArrayList<>(); //Lista com os tokens reconhecidos do programa
     public Analisador_Lexico() {
         initComponents();
     }
 
   
-                             
+    //Configuração dos elementos da interface gráfica
     private void initComponents() {
-
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
@@ -96,12 +96,13 @@ public class Analisador_Lexico extends javax.swing.JFrame {
         pack();
     }// </editor-fold>                        
 
+    //Evento para o botão de "ABRIR ARQUIVO" com as chamadas de métodos para usar o autômato
     private void get_file_buttonActionPerformed(java.awt.event.ActionEvent evt) {                                                
-        //-------- LIDAR COM O ARQUIVO ------------
+        //------------ ARQUIVO -----------------
         String fileName ="";
         JFileChooser chooser = new JFileChooser(".");
         int res;
-        //ABRIR ARQUIVO
+        //Abertura do arquivo a partir do File Chooser do Java
          chooser.setFileSelectionMode(JFileChooser.FILES_AND_DIRECTORIES);
          res=chooser.showOpenDialog(null);
           if (res==JFileChooser.APPROVE_OPTION){
@@ -109,29 +110,28 @@ public class Analisador_Lexico extends javax.swing.JFrame {
                 File file;
                file=chooser.getSelectedFile();
                fileName = file.getAbsolutePath();
-               fileReader = new Reader(fileName);
-               //LER ARQUIVO
+               fileReader = new Reader(fileName); //Instancia da classe Reader que lida com o arquivo de entrada
+               //Leitura do arquivo de entrada
                readCharacters=fileReader.readFile();
                fileReader.closeReader();
            }
-        
-          //COLOCAR O RESULTADO NA TABELA
-          //result = automata.getResult(); TODO! PASSAR O RESULTADO DA CLASSE AUTOMATA;
 
-          result.add(new Token("Palavra Reservada", "nil"));
-          result.add(new Token("Palavra Reservada", "car"));
-          result.add(new Token("Operador", "leq"));
-          result.add(new Token("Identificador", "Ab10_Bah"));
+           //----------- RECONHECIMENTO -------- 
+           //Passar as strings lidas do arquivo de entrada pelo autômato para reconhecimento
+           automata.parseWords(readCharacters); //Pela classe Automata
+        
+          //---------- RESULTADO ------------- 
+          //Receber o resultado da classe Automata
+          result = automata.getResult(); 
           
+          //Imprimir o resultado no TextArea da interface gráfica
           result_area.setText(result.toString());
 
-          //SALVAR O RESULTADO EM UM ARQUIVO
+          //Salvar o resultado em um arquivo para uso posterior através da classe Reader
           Reader fileReader = new Reader(fileName);
-          
           fileReader.saveFile(result);
           
     }                                               
-
 
     public static void main(String args[]) {
         java.awt.EventQueue.invokeLater(new Runnable() {
