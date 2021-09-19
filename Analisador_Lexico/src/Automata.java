@@ -38,20 +38,30 @@ public class Automata{
 					System.out.println ("\t\tPartindo do estado: " + state);
 					System.out.println ("\t\tVerificando adjacências para " + input);
 				}
-				for (int j = 0; j < vertex[state].weights.size(); j++) { 
-					if (vertex[state].weights.get(j) == input) {
-						if (debugMode){
-							System.out.println ("\t\t\tEncontrada, leva para o vértice: " + vertex[state].adjacencies.get(j));
-							System.out.println ("\t\t\tAtualizando estado...");
+				if (vertex[state].adjacencies.size() > 0) {
+					for (int j = 0; j < vertex[state].weights.size(); j++) { 
+						if (vertex[state].weights.get(j) == input) {
+							if (debugMode){
+								System.out.println ("\t\t\tEncontrada, leva para o vértice: " + vertex[state].adjacencies.get(j));
+								System.out.println ("\t\t\tAtualizando estado...");
+							}
+							state = vertex[state].adjacencies.get(j);
+							hasAdjacency = true;
+							break;
 						}
-						state = vertex[state].adjacencies.get(j);
-						hasAdjacency = true;
-						break;
+						else if (vertex[state].weights.get(j) == '&') {
+							if (Character.isLetterOrDigit(input) || input == '_') {
+								state = 31;
+								hasAdjacency = true;
+								break;
+							}
+						}
 					}
 				}
+
 				if (!hasAdjacency) {
-					if (debugMode) System.out.println ("\t\t\tAdajacência não encontrada, atribuindo ao tipo \"ID\"");
-					state = 53;
+					if (debugMode) System.out.println ("\t\t\tNão há adjacência, palavra não reconhecida");
+					state = -1;
 					break;
 				}
 			}

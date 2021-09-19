@@ -24,6 +24,6 @@ public class Token {
 
     //Método para imprimir o token e seu tipo
     public String toString(){
-        return " " + type + " -> " + info+ "\n";
+        return (" " + type + " -> " + info + "\n");
     }
 }

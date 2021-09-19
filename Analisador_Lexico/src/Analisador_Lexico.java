@@ -99,7 +99,7 @@ public class Analisador_Lexico extends javax.swing.JFrame {
     //Evento para o botão de "ABRIR ARQUIVO" com as chamadas de métodos para usar o autômato
     private void get_file_buttonActionPerformed(java.awt.event.ActionEvent evt) {                                                
         //------------ ARQUIVO -----------------
-        String fileName ="";
+        String fileName ="./output";
         JFileChooser chooser = new JFileChooser(".");
         int res;
         //Abertura do arquivo a partir do File Chooser do Java
