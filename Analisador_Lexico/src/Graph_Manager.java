@@ -2,8 +2,6 @@
 /*
  * Fornece métodos auxiliares para lidar com o grafo como um todo, uma vez que ele é
  * apresentado como uma lista de adjacências
- *
- *
  */
 
 import java.io.File;   
@@ -75,87 +73,36 @@ public class Graph_Manager
 		System.out.print ("\n");
 	}
 
+	// determina o tipo do token, baseado no estado final em que
+	// o mesmo se encontra após processamento
 	public String determineType (int state)
 	{
-		String type = "NÃO ATRIBUÍDO";
-		String reserved = "PALAVRA RESERVADA";
-		String operand = "OPERADOR";
+		String type          = "";
+		String reserved      = "PALAVRA RES. ";
+		String operand       = "OPERADOR          ";
+		String number        = "NÚMERO            ";
+		String delimiter     = "DELIMITADOR       ";
+		String id            = "IDENTIFICADOR     ";
+		String notRecognized = "NÃO RECONHEC.   ";
 
 		switch (state) {
-			case 40:
+			case 27:
 				type = reserved;
 				break;
-			case 43:
-				type = reserved;
-				break;
-			case 23:
-				type = reserved;
-				break;
-			case 44:
-				type = reserved;
-				break;
-			case 26:
-				type = reserved;
-				break;
-			case 36:
-				type = reserved;
-				break;
-			case 38:
-				type = reserved;
-				break;
-			case 37:
-				type = reserved;
-				break;
-			case 54:
-				type = reserved;
-				break;
-			case 17:
-				type = reserved;
-				break;
-			case 45:
-				type = reserved;
+			case 28:
+				type = operand;
 				break;
 			case 29:
-				type = reserved;
-				break;
-			case 57:
-				type = reserved;
-				break;
-			case 55:
-				type = operand;
-				break;
-			case 31:
-				type = operand;
+				type = number;
 				break;
 			case 30:
-				type = operand;
+				type = delimiter;
 				break;
-			case 21:
-				type = operand;
-				break;
-			case 46:
-				type = operand;
-				break;
-			case 47:
-				type = operand;
-				break;
-			case 48:
-				type = operand;
-				break;
-			case 49:
-				type = operand;
-				break;
-			case 50:
-				type = operand;
-				break;
-			case 51:
-				type = operand;
-				break;
-			case 52:
-				type = operand;
+			case -1:
+				type = notRecognized;
 				break;
 			default:
-				type = "IDENTIFICADOR";
+				type = id;
 				break;
 		}
 
