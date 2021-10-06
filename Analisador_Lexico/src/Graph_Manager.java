@@ -78,6 +78,7 @@ public class Graph_Manager
 	public String determineType (int state)
 	{
 		String type          = "";
+
 		String reserved      = "PALAVRA RES.   ";
 		String operand       = "OPERADOR       ";
 		String number        = "NÚMERO         ";
