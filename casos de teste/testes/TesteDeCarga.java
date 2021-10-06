@@ -51,7 +51,7 @@ public class TesteDeCarga
 		words.add(")");
 		words.add("(");
 
-		for (int i = 0; i < 50000; i++)
+		for (int i = 0; i < 5000; i++)
 			words.add (gerarStringAleatoria());
 	}
 
@@ -80,7 +80,7 @@ public class TesteDeCarga
 		TesteDeCarga ger = new TesteDeCarga();
 
 		int counter = 0;
-		while (counter < 10000000) {
+		while (counter < 2000000) {
 			String string = ger.words.get(genRandom(0, 26));
 			ger.write (" " + string + " ");
 			if (counter % 20 == 0)
