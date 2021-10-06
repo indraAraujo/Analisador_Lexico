@@ -1,8 +1,8 @@
-(define pi 3.1415926536)
-(define phi 1.618033987)
-(define um_valor (* 2 (/ pi phi)))
+( define pi 3.1415926536 )
+( define phi 1.618033987 )
+( define um_valor ( * 2 ( / pi phi) ) )
 
-( lambda ( arg1 arg2 ...)
+( lambda ( arg1 arg2 arg3 arg4 )
 	forma1
 	forma2
-...)
+)

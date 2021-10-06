@@ -6,3 +6,5 @@ normal.txt:
 
 vazio.txt:
 	testa o autômato não contendo nada apenas um ponto.
+carga.txt:
+	quantas palavras, de quaisquer tipos, ele consegue reconhecer
