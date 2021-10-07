@@ -78,12 +78,13 @@ public class Graph_Manager
 	public String determineType (int state)
 	{
 		String type          = "";
-		String reserved      = "PALAVRA RES.    ";
-		String operand       = "OPERADOR        ";
-		String number        = "NÚMERO          ";
-		String delimiter     = "DELIMITADOR     ";
-		String id            = "IDENTIFICADOR   ";
-		String notRecognized = "NÃO RECONHEC.   ";
+
+		String reserved      = "PALAVRA RES.   ";
+		String operand       = "OPERADOR       ";
+		String number        = "NÚMERO         ";
+		String delimiter     = "DELIMITADOR    ";
+		String id            = "IDENTIFICADOR  ";
+		String notRecognized = "NÃO RECONHEC.  ";
 
 		switch (state) {
 			case 27:
