@@ -1,0 +1,51 @@
+[ PALAVRA RES.  -> defun
+,  PALAVRA RES.  -> define
+,  PALAVRA RES.  -> let
+,  PALAVRA RES.  -> lambda
+,  PALAVRA RES.  -> car
+,  PALAVRA RES.  -> cdr
+,  PALAVRA RES.  -> list
+,  PALAVRA RES.  -> atom
+,  PALAVRA RES.  -> cond
+,  PALAVRA RES.  -> case
+,  PALAVRA RES.  -> if
+,  PALAVRA RES.  -> T
+,  PALAVRA RES.  -> nil
+,  PALAVRA RES.  -> car
+,  PALAVRA RES.  -> cdr
+,  OPERADOR           -> +
+,  OPERADOR           -> *
+,  OPERADOR           -> -
+,  OPERADOR           -> /
+,  OPERADOR           -> <
+,  OPERADOR           -> leq
+,  OPERADOR           -> >
+,  OPERADOR           -> geq
+,  OPERADOR           -> neq
+,  OPERADOR           -> eq
+,  OPERADOR           -> =
+,  NÚMERO             -> 8
+,  NÚMERO             -> 9
+,  NÚMERO             -> 5454
+,  NÚMERO             -> 1521
+,  NÚMERO             -> 87878787
+,  NÚMERO             -> 6565
+,  NÃO RECONHEC.    -> !defunio
+,  NÃO RECONHEC.    -> defun/*
+,  NÃO RECONHEC.    -> defun+
+,  NÃO RECONHEC.    -> +-
+,  NÃO RECONHEC.    -> +jsddfn
+,  NÃO RECONHEC.    -> (adsfas
+,  NÃO RECONHEC.    -> )ewqrqw2
+,  NÃO RECONHEC.    -> v!@#87
+,  DELIMITADOR        -> )
+,  DELIMITADOR        -> (
+,  IDENTIFICADOR      -> b_234
+,  IDENTIFICADOR      -> bow324
+,  IDENTIFICADOR      -> b4342ik
+,  IDENTIFICADOR      -> p341432
+,  IDENTIFICADOR      -> w___134
+,  IDENTIFICADOR      -> y_qw342
+,  IDENTIFICADOR      -> n
+,  IDENTIFICADOR      -> d
+,  IDENTIFICADOR      -> c
