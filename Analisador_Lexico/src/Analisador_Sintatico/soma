@@ -1,0 +1,13 @@
+DL -> (
+PR -> defun
+ID -> soma
+DL -> (
+ID -> x
+ID -> y
+DL -> )
+DL -> (
+OP -> +
+ID -> x
+ID -> y
+DL -> )
+DL -> )

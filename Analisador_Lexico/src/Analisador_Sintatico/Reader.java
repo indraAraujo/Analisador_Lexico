@@ -1,5 +1,3 @@
-package Analisador_Sintatico;
-
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -31,11 +29,16 @@ public class Reader {
 
 	public Stack<Token> readFile ()
 	{
-		
+		// push(new Token("EOF", "EOF"));	
 		while (scanner.hasNext()) {
 			String line = scanner.nextLine();
 			String[] words = line.split("->");
-            insert_at_bottom(new Token(words[0], words[1]));
+			Token novo_token = new Token(words[0].trim(), words[1].trim());
+			if(novo_token.getType().equals("NR")){
+				System.out.println("Palavra não reconhecida");
+			       	return null;
+			}
+			else insert_at_bottom(novo_token);
 		}
 		
 		return tokens;

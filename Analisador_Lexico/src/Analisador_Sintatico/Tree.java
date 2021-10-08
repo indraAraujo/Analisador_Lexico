@@ -1,4 +1,3 @@
-package Analisador_Sintatico;
 
 import java.util.*;
  

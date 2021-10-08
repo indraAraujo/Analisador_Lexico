@@ -1,6 +1,3 @@
-package Analisador_Sintatico;
-
-
 
 import java.io.File;
 import java.util.ArrayList;

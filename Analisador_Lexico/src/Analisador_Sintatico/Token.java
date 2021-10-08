@@ -1,4 +1,3 @@
-package Analisador_Sintatico;
 
 public class Token{
     private String type; //Atributo para armazenar o tipo do token
