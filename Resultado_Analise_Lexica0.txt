@@ -1,0 +1,473 @@
+[ DELIMITADOR     -> (
+,  PALAVRA RES.    -> define
+,  IDENTIFICADOR   -> pi
+,  NÃO RECONHEC.   -> 3.1415926536
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> define
+,  IDENTIFICADOR   -> phi
+,  NÃO RECONHEC.   -> 1.618033987
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> define
+,  IDENTIFICADOR   -> um_valor
+,  DELIMITADOR     -> (
+,  OPERADOR        -> *
+,  NÚMERO          -> 2
+,  DELIMITADOR     -> (
+,  OPERADOR        -> /
+,  IDENTIFICADOR   -> pi
+,  NÃO RECONHEC.   -> phi)
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> lambda
+,  DELIMITADOR     -> (
+,  IDENTIFICADOR   -> arg1
+,  IDENTIFICADOR   -> arg2
+,  IDENTIFICADOR   -> arg3
+,  IDENTIFICADOR   -> arg4
+,  DELIMITADOR     -> )
+,  NÃO RECONHEC.   -> 	forma1
+,  NÃO RECONHEC.   -> 	forma2
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> define
+,  IDENTIFICADOR   -> pi
+,  NÃO RECONHEC.   -> 3.1415926536
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> define
+,  IDENTIFICADOR   -> phi
+,  NÃO RECONHEC.   -> 1.618033987
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> define
+,  IDENTIFICADOR   -> um_valor
+,  DELIMITADOR     -> (
+,  OPERADOR        -> *
+,  NÚMERO          -> 2
+,  DELIMITADOR     -> (
+,  OPERADOR        -> /
+,  IDENTIFICADOR   -> pi
+,  NÃO RECONHEC.   -> phi)
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> lambda
+,  DELIMITADOR     -> (
+,  IDENTIFICADOR   -> arg1
+,  IDENTIFICADOR   -> arg2
+,  IDENTIFICADOR   -> arg3
+,  IDENTIFICADOR   -> arg4
+,  DELIMITADOR     -> )
+,  NÃO RECONHEC.   -> 	forma1
+,  NÃO RECONHEC.   -> 	forma2
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> define
+,  IDENTIFICADOR   -> pi
+,  NÃO RECONHEC.   -> 3.1415926536
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> define
+,  IDENTIFICADOR   -> phi
+,  NÃO RECONHEC.   -> 1.618033987
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> define
+,  IDENTIFICADOR   -> um_valor
+,  DELIMITADOR     -> (
+,  OPERADOR        -> *
+,  NÚMERO          -> 2
+,  DELIMITADOR     -> (
+,  OPERADOR        -> /
+,  IDENTIFICADOR   -> pi
+,  NÃO RECONHEC.   -> phi)
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> lambda
+,  DELIMITADOR     -> (
+,  IDENTIFICADOR   -> arg1
+,  IDENTIFICADOR   -> arg2
+,  IDENTIFICADOR   -> arg3
+,  IDENTIFICADOR   -> arg4
+,  DELIMITADOR     -> )
+,  NÃO RECONHEC.   -> 	forma1
+,  NÃO RECONHEC.   -> 	forma2
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> define
+,  IDENTIFICADOR   -> pi
+,  NÃO RECONHEC.   -> 3.1415926536
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> define
+,  IDENTIFICADOR   -> phi
+,  NÃO RECONHEC.   -> 1.618033987
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> define
+,  IDENTIFICADOR   -> um_valor
+,  DELIMITADOR     -> (
+,  OPERADOR        -> *
+,  NÚMERO          -> 2
+,  DELIMITADOR     -> (
+,  OPERADOR        -> /
+,  IDENTIFICADOR   -> pi
+,  NÃO RECONHEC.   -> phi)
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> lambda
+,  DELIMITADOR     -> (
+,  IDENTIFICADOR   -> arg1
+,  IDENTIFICADOR   -> arg2
+,  IDENTIFICADOR   -> arg3
+,  IDENTIFICADOR   -> arg4
+,  DELIMITADOR     -> )
+,  NÃO RECONHEC.   -> 	forma1
+,  NÃO RECONHEC.   -> 	forma2
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> define
+,  IDENTIFICADOR   -> pi
+,  NÃO RECONHEC.   -> 3.1415926536
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> define
+,  IDENTIFICADOR   -> phi
+,  NÃO RECONHEC.   -> 1.618033987
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> define
+,  IDENTIFICADOR   -> um_valor
+,  DELIMITADOR     -> (
+,  OPERADOR        -> *
+,  NÚMERO          -> 2
+,  DELIMITADOR     -> (
+,  OPERADOR        -> /
+,  IDENTIFICADOR   -> pi
+,  NÃO RECONHEC.   -> phi)
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> lambda
+,  DELIMITADOR     -> (
+,  IDENTIFICADOR   -> arg1
+,  IDENTIFICADOR   -> arg2
+,  IDENTIFICADOR   -> arg3
+,  IDENTIFICADOR   -> arg4
+,  DELIMITADOR     -> )
+,  NÃO RECONHEC.   -> 	forma1
+,  NÃO RECONHEC.   -> 	forma2
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> define
+,  IDENTIFICADOR   -> pi
+,  NÃO RECONHEC.   -> 3.1415926536
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> define
+,  IDENTIFICADOR   -> phi
+,  NÃO RECONHEC.   -> 1.618033987
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> define
+,  IDENTIFICADOR   -> um_valor
+,  DELIMITADOR     -> (
+,  OPERADOR        -> *
+,  NÚMERO          -> 2
+,  DELIMITADOR     -> (
+,  OPERADOR        -> /
+,  IDENTIFICADOR   -> pi
+,  NÃO RECONHEC.   -> phi)
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> lambda
+,  DELIMITADOR     -> (
+,  IDENTIFICADOR   -> arg1
+,  IDENTIFICADOR   -> arg2
+,  IDENTIFICADOR   -> arg3
+,  IDENTIFICADOR   -> arg4
+,  DELIMITADOR     -> )
+,  NÃO RECONHEC.   -> 	forma1
+,  NÃO RECONHEC.   -> 	forma2
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> define
+,  IDENTIFICADOR   -> pi
+,  NÃO RECONHEC.   -> 3.1415926536
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> define
+,  IDENTIFICADOR   -> phi
+,  NÃO RECONHEC.   -> 1.618033987
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> define
+,  IDENTIFICADOR   -> um_valor
+,  DELIMITADOR     -> (
+,  OPERADOR        -> *
+,  NÚMERO          -> 2
+,  DELIMITADOR     -> (
+,  OPERADOR        -> /
+,  IDENTIFICADOR   -> pi
+,  NÃO RECONHEC.   -> phi)
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> lambda
+,  DELIMITADOR     -> (
+,  IDENTIFICADOR   -> arg1
+,  IDENTIFICADOR   -> arg2
+,  IDENTIFICADOR   -> arg3
+,  IDENTIFICADOR   -> arg4
+,  DELIMITADOR     -> )
+,  NÃO RECONHEC.   -> 	forma1
+,  NÃO RECONHEC.   -> 	forma2
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> define
+,  IDENTIFICADOR   -> pi
+,  NÃO RECONHEC.   -> 3.1415926536
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> define
+,  IDENTIFICADOR   -> phi
+,  NÃO RECONHEC.   -> 1.618033987
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> define
+,  IDENTIFICADOR   -> um_valor
+,  DELIMITADOR     -> (
+,  OPERADOR        -> *
+,  NÚMERO          -> 2
+,  DELIMITADOR     -> (
+,  OPERADOR        -> /
+,  IDENTIFICADOR   -> pi
+,  NÃO RECONHEC.   -> phi)
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> lambda
+,  DELIMITADOR     -> (
+,  IDENTIFICADOR   -> arg1
+,  IDENTIFICADOR   -> arg2
+,  IDENTIFICADOR   -> arg3
+,  IDENTIFICADOR   -> arg4
+,  DELIMITADOR     -> )
+,  NÃO RECONHEC.   -> 	forma1
+,  NÃO RECONHEC.   -> 	forma2
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> define
+,  IDENTIFICADOR   -> pi
+,  NÃO RECONHEC.   -> 3.1415926536
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> define
+,  IDENTIFICADOR   -> phi
+,  NÃO RECONHEC.   -> 1.618033987
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> define
+,  IDENTIFICADOR   -> um_valor
+,  DELIMITADOR     -> (
+,  OPERADOR        -> *
+,  NÚMERO          -> 2
+,  DELIMITADOR     -> (
+,  OPERADOR        -> /
+,  IDENTIFICADOR   -> pi
+,  NÃO RECONHEC.   -> phi)
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> lambda
+,  DELIMITADOR     -> (
+,  IDENTIFICADOR   -> arg1
+,  IDENTIFICADOR   -> arg2
+,  IDENTIFICADOR   -> arg3
+,  IDENTIFICADOR   -> arg4
+,  DELIMITADOR     -> )
+,  NÃO RECONHEC.   -> 	forma1
+,  NÃO RECONHEC.   -> 	forma2
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> define
+,  IDENTIFICADOR   -> pi
+,  NÃO RECONHEC.   -> 3.1415926536
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> define
+,  IDENTIFICADOR   -> phi
+,  NÃO RECONHEC.   -> 1.618033987
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> define
+,  IDENTIFICADOR   -> um_valor
+,  DELIMITADOR     -> (
+,  OPERADOR        -> *
+,  NÚMERO          -> 2
+,  DELIMITADOR     -> (
+,  OPERADOR        -> /
+,  IDENTIFICADOR   -> pi
+,  NÃO RECONHEC.   -> phi)
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> lambda
+,  DELIMITADOR     -> (
+,  IDENTIFICADOR   -> arg1
+,  IDENTIFICADOR   -> arg2
+,  IDENTIFICADOR   -> arg3
+,  IDENTIFICADOR   -> arg4
+,  DELIMITADOR     -> )
+,  NÃO RECONHEC.   -> 	forma1
+,  NÃO RECONHEC.   -> 	forma2
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> define
+,  IDENTIFICADOR   -> pi
+,  NÃO RECONHEC.   -> 3.1415926536
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> define
+,  IDENTIFICADOR   -> phi
+,  NÃO RECONHEC.   -> 1.618033987
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> define
+,  IDENTIFICADOR   -> um_valor
+,  DELIMITADOR     -> (
+,  OPERADOR        -> *
+,  NÚMERO          -> 2
+,  DELIMITADOR     -> (
+,  OPERADOR        -> /
+,  IDENTIFICADOR   -> pi
+,  NÃO RECONHEC.   -> phi)
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> lambda
+,  DELIMITADOR     -> (
+,  IDENTIFICADOR   -> arg1
+,  IDENTIFICADOR   -> arg2
+,  IDENTIFICADOR   -> arg3
+,  IDENTIFICADOR   -> arg4
+,  DELIMITADOR     -> )
+,  NÃO RECONHEC.   -> 	forma1
+,  NÃO RECONHEC.   -> 	forma2
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> define
+,  IDENTIFICADOR   -> pi
+,  NÃO RECONHEC.   -> 3.1415926536
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> define
+,  IDENTIFICADOR   -> phi
+,  NÃO RECONHEC.   -> 1.618033987
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> define
+,  IDENTIFICADOR   -> um_valor
+,  DELIMITADOR     -> (
+,  OPERADOR        -> *
+,  NÚMERO          -> 2
+,  DELIMITADOR     -> (
+,  OPERADOR        -> /
+,  IDENTIFICADOR   -> pi
+,  NÃO RECONHEC.   -> phi)
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> lambda
+,  DELIMITADOR     -> (
+,  IDENTIFICADOR   -> arg1
+,  IDENTIFICADOR   -> arg2
+,  IDENTIFICADOR   -> arg3
+,  IDENTIFICADOR   -> arg4
+,  DELIMITADOR     -> )
+,  NÃO RECONHEC.   -> 	forma1
+,  NÃO RECONHEC.   -> 	forma2
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> define
+,  IDENTIFICADOR   -> pi
+,  NÃO RECONHEC.   -> 3.1415926536
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> define
+,  IDENTIFICADOR   -> phi
+,  NÃO RECONHEC.   -> 1.618033987
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> define
+,  IDENTIFICADOR   -> um_valor
+,  DELIMITADOR     -> (
+,  OPERADOR        -> *
+,  NÚMERO          -> 2
+,  DELIMITADOR     -> (
+,  OPERADOR        -> /
+,  IDENTIFICADOR   -> pi
+,  NÃO RECONHEC.   -> phi)
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> lambda
+,  DELIMITADOR     -> (
+,  IDENTIFICADOR   -> arg1
+,  IDENTIFICADOR   -> arg2
+,  IDENTIFICADOR   -> arg3
+,  IDENTIFICADOR   -> arg4
+,  DELIMITADOR     -> )
+,  NÃO RECONHEC.   -> 	forma1
+,  NÃO RECONHEC.   -> 	forma2
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> define
+,  IDENTIFICADOR   -> pi
+,  NÃO RECONHEC.   -> 3.1415926536
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> define
+,  IDENTIFICADOR   -> phi
+,  NÃO RECONHEC.   -> 1.618033987
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> define
+,  IDENTIFICADOR   -> um_valor
+,  DELIMITADOR     -> (
+,  OPERADOR        -> *
+,  NÚMERO          -> 2
+,  DELIMITADOR     -> (
+,  OPERADOR        -> /
+,  IDENTIFICADOR   -> pi
+,  NÃO RECONHEC.   -> phi)
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> lambda
+,  DELIMITADOR     -> (
+,  IDENTIFICADOR   -> arg1
+,  IDENTIFICADOR   -> arg2
+,  IDENTIFICADOR   -> arg3
+,  IDENTIFICADOR   -> arg4
+,  DELIMITADOR     -> )
+,  NÃO RECONHEC.   -> 	forma1
+,  NÃO RECONHEC.   -> 	forma2
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> define
+,  IDENTIFICADOR   -> pi
+,  NÃO RECONHEC.   -> 3.1415926536
+,  DELIMITADOR     -> )
+,  DELIMITADOR     -> (
+,  PALAVRA RES.    -> define
+,  IDENTIFICADOR   -> phi
+,  NÃO RECONHEC.   -> 1.618033987
+,  DELIMITADOR     -> )
+]
